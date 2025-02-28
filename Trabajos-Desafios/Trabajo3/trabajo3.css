@@ -1,0 +1,61 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(231, 222, 182);
+    color: rgb(146, 77, 77);
+}
+
+h2 {
+    color: rgb(223, 217, 217);
+} 
+
+.container {
+    background-color: rgb(189, 63, 63);
+    display: block;
+}
+
+img{
+    display: flex;
+    width: 100%;
+}
+
+.nav-primero ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.nav-primero li {
+    margin: 0 15px;
+    position: relative;
+}
+.nav-primero a {
+    color: orangered;
+    font-weight: bold;
+}
+
+.nav-segundo a{
+    color: orangered;
+}
+
+.nav-tercero .link-nacion{
+    color: rgb(74, 74, 226);
+}
+
+.nav-tercero .link-pagina12{
+    color: rgb(196, 57, 57);
+}
+
+.link-prosegur {
+    color: orangered;
+}
+
+.por-que-elegirnos h2 {
+    color: rgb(218, 218, 65);
+}
+
+.guion {
+    color: orangered;
+}
