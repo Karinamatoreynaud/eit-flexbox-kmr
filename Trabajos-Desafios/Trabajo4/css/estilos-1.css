@@ -6,6 +6,7 @@
 
 body {
     background-color: #e70582;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff
 }
@@ -13,49 +14,84 @@ body {
 header {
     background-color: #c2025f;
     width: 80%;
-    margin: 20px auto;
+    margin: 100px auto;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
+    box-shadow: -10px 0 0 white, 10px 0 0 white;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 8rem;
 }
 
 main {
     width: 80%;
-    margin: auto
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-section {
-    background-color: #fff;
-    color: #000;
-    padding: 20px;
-    margin: 20px 0;
+.mas-vendidos {
+    background-color: #c2025f;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-radius: 10px;
 }
 
 .mas-vendidos h2 {
-    background-color: #c2025f;
+    font-size: 4rem;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
 }
 
-img {
+article.juego1, article.juego2 {
+    background-color: #fff;
+    color: black;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+h3 {
+    text-align: end;
+    font-size: 3rem;
+    color: #a10f37;
+    font-weight: bold;
+}
+
+.dotted-line {
+    width: 100%;
+    border-top: 1px dashed #a10f37;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.Mario, .Mortal {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 15px;
+    margin: 0;
 }
 
 p {
+    text-align: left;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.button {
+.button1, .button2 {
     display: block;
     width: fit-content;
-    margin: 10px auto;
-    background-color: #28ce22;
+    margin: 20px auto 10px;
+    background-color: #20a01c;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -63,7 +99,8 @@ p {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 footer {
@@ -72,5 +109,7 @@ footer {
     width: 80%;
     margin: auto;
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
 }
+
